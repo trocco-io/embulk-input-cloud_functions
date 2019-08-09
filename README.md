@@ -28,12 +28,14 @@ embulk gem install embulk-input-cloud_functions
 
 ## Configuration
 
+WIP
+
 - **project**: Google Cloud Platform (gcp) project id (string, required)
 - **json_keyfile**: gcp service account's private key with json (string, required)
 
-WIP
-
 ## Example
+
+WIP
 
 ```yaml
 in:
