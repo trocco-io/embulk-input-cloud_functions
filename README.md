@@ -13,3 +13,35 @@ Execute a function (Cloud Functions) in your GCP account and read the result dat
 * **Plugin type**: file input
 * **Resume supported**: no
 * **Cleanup supported**: yes
+
+## Detail
+
+WIP
+
+## Usage
+
+### Install plugin
+
+```bash
+embulk gem install embulk-input-cloud_functions
+```
+
+## Configuration
+
+- **project**: Google Cloud Platform (gcp) project id (string, required)
+- **json_keyfile**: gcp service account's private key with json (string, required)
+
+WIP
+
+## Example
+
+```yaml
+in:
+  type: cloud_functions
+  project: googlecloudplatformproject
+  json_keyfile: gcp-service-account-private-key.json
+  parser:
+    type: json
+out: 
+  type: stdout
+```
